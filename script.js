@@ -10,6 +10,8 @@ program[5] = ['5 - Escadinha'];
 program[6] = ['6 - Quadrilha Agostina'];
 
 
+alert("Olá, bem vindo à coleção de exercícios em JavaScript puro");
+
 option = prompt("Escolha uma opção \n" + program.join('\n'));
 
 option = option.trim();
@@ -20,6 +22,8 @@ while (isNaN(Number(option))|| (option === '') || (option === null) || (option.l
 }
 
 
+while (option===option) {
+    
 if (option === '1') {
 
     prog = true;
@@ -166,5 +170,7 @@ if (option === '1') {
         option = prompt("Digite uma opção");
         option = option.trim();
     }
+
+}
 
 }
